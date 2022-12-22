@@ -8,20 +8,20 @@ export default class Pricing {
 
   // amount
   get amount() {
-    return this.amount;
+    return this._amount;
   }
 
   set amount(value) {
-    this.amount = value;
+    this._amount = value;
   }
 
   // currency
   get currency() {
-    return this.currency;
+    return this._currency;
   }
 
   set currency(value) {
-    this.currency = value;
+    this._currency = value;
   }
 
   displayFullPrice() {
